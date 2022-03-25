@@ -955,7 +955,8 @@ ul, ol {
       margin-bottom: 8px;
       height: 44px; }
       .fixed_assets__tab_block .block .wrap .item svg {
-        margin-right: 16px; }
+        margin-right: 16px;
+        min-width: 24px; }
       .fixed_assets__tab_block .block .wrap .item .link {
         font-weight: 400;
         font-size: 13px;
@@ -1014,6 +1015,23 @@ ul, ol {
       background-color: transparent;
       text-decoration: none; }
       .fixed_assets__tab_block .block .right .download svg {
+        margin-right: 0; }
+    .fixed_assets__tab_block .block .right .printer {
+      width: 44px;
+      height: 44px;
+      border: 1px solid #082471;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: transparent;
+      margin-left: 16px; }
+      .fixed_assets__tab_block .block .right .printer svg {
         margin-right: 0; }
 
 .kbk {
@@ -1856,6 +1874,267 @@ ul, ol {
     line-height: 21px;
     color: #333344;
     margin-bottom: 16px; }
+
+.procurement {
+  padding-top: 26px;
+  padding-bottom: 70px; }
+  .procurement .autonomous_institutions__aside {
+    width: 360px; }
+  .procurement .fixed_assets__tab_block {
+    width: 730px; }
+    .procurement .fixed_assets__tab_block .h3 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #F96156;
+      margin-bottom: 20px; }
+    .procurement .fixed_assets__tab_block .h6 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #082471;
+      margin-bottom: 32px; }
+  .procurement .fixed_assets__tab_block .block .right {
+    min-width: 293px;
+    width: 293px; }
+
+.procurement__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.accountant_calendar {
+  padding-top: 26px;
+  padding-bottom: 30px; }
+
+.accountant_calendar__tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #CED3E3;
+  margin-bottom: 32px; }
+  .accountant_calendar__tab .btn {
+    width: 25%;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px); }
+  .accountant_calendar__tab .btn.active {
+    color: #F96156;
+    border-color: #F96156; }
+
+.accountant_calendar__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.accountant_calendar__date {
+  width: 254px; }
+  .accountant_calendar__date .h5 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #333344;
+    margin-bottom: 27px; }
+
+.accountant_calendar__content {
+  width: 822px; }
+
+.accountant_calendar__block {
+  width: 100%;
+  padding: 25px 40px 8px 34px;
+  border: 1px solid rgba(8, 36, 113, 0.1);
+  border-left: 9px solid #082471;
+  margin-bottom: 16px; }
+  .accountant_calendar__block h6 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9B9B9B;
+    margin-bottom: 16px; }
+  .accountant_calendar__block h5 {
+    max-width: 402px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #082471;
+    margin-bottom: 11px; }
+  .accountant_calendar__block p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #333344;
+    margin-bottom: 24px; }
+
+.work_days__tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #CED3E3;
+  margin-top: 60px;
+  margin-bottom: 16px; }
+  .work_days__tab .btn {
+    width: 16.6%;
+    padding-bottom: 10px;
+    border: 0;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px); }
+  .work_days__tab .btn.active {
+    border-color: #F96156;
+    color: #F96156; }
+
+.work_days .h5 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #082471;
+  margin-bottom: 16px; }
+
+.work_days__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 32px; }
+  .work_days__box .left {
+    width: 160px; }
+    .work_days__box .left p {
+      height: 34px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000; }
+
+.work_days__table {
+  width: 920px; }
+  .work_days__table th {
+    width: 47px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 11px; }
+  .work_days__table th.orange {
+    color: #F96156; }
+  .work_days__table th.blue {
+    color: #082471; }
+  .work_days__table tr {
+    padding-bottom: 2px; }
+  .work_days__table td {
+    max-width: 47px;
+    width: 47px;
+    height: 32px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    color: #000000;
+    text-align: center; }
+  .work_days__table td.orange {
+    background-color: #F96156;
+    color: #fff; }
+  .work_days__table td.blue {
+    background-color: #082471;
+    color: #fff; }
+  .work_days__table td.silver {
+    background: #CED3E3;
+    color: #082471; }
+
+.look-calendar {
+  width: 254px;
+  height: 240px;
+  background: #EEF0F5;
+  border: 1px solid #EEF0F5;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 0 auto; }
+  .look-calendar tbody td {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333344 !important; }
+  .look-calendar tbody td.today {
+    background: #F96156 !important;
+    color: #FFFFFF !important; }
+  .look-calendar .top {
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 4px; }
+    .look-calendar .top .center {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: #082471; }
+  .look-calendar .dn td {
+    width: 31px;
+    height: 31px;
+    font-weight: 500;
+    font-size: 8px !important;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #777777; }
+
+#calendar {
+  width: 100%;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+  border-spacing: 0px; }
+
+#calendar tr.dn td {
+  font-size: 15px; }
+
+#calendar thead tr:last-child {
+  font-size: small;
+  color: #555555; }
+
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+  color: #323232; }
+
+#calendar thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer; }
+
+#calendar tbody td {
+  color: #2c567a; }
+
+#calendar tbody td:nth-child(n+6),
+#calendar .holiday {
+  color: #e78c5c; }
+
+#calendar tbody td.today {
+  background: #dc0000;
+  color: #fff; }
 
 .footer {
   background: #F2F2F2; }
