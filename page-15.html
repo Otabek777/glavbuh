@@ -10,6 +10,7 @@
     <title></title>
 </head>
 <body>
+    <div class="bg"></div>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -130,6 +131,27 @@
             </div>
         </div>
     </header>
+    <!-- modal -->
+    <div class="modal not_enough_rights">
+        <div class="modal__block">
+            <button class="modal__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.435 15.8492C14.8256 16.2398 15.4587 16.2398 15.8492 15.8492C16.2398 15.4587 16.2398 14.8256 15.8492 14.435L9.55637 8.14215L15.8493 1.84924C16.2398 1.45872 16.2398 0.825555 15.8493 0.435031C15.4588 0.0445061 14.8256 0.044506 14.4351 0.43503L8.14215 6.72794L1.70711 0.292894C1.31658 -0.0976317 0.683418 -0.0976307 0.292894 0.292894C-0.0976307 0.683418 -0.0976317 1.31658 0.292894 1.70711L6.72794 8.14215L0.292923 14.5772C-0.0976011 14.9677 -0.0976015 15.6009 0.292923 15.9914C0.683447 16.3819 1.31661 16.3819 1.70714 15.9914L8.14215 9.55637L14.435 15.8492Z" fill="white"/>
+                </svg>
+            </button>
+            <div class="box">
+                <div class="left">
+                    <h3 class="h2">У вас недостаточно прав доступа</h3>
+                    <p>Пожалуйста, авторизуйтесь или подайте заявку на подключение</p>
+                </div>
+                <img class="img" src="img/pngwing.png" alt="">
+            </div>
+            <div class="not_enough_rights__btn">
+                <button class="btn1">Подключиться</button>
+                <button class="btn2">авторизироваться</button>
+            </div>
+        </div>
+    </div>
     <main class="main">
         <div class="procurement">
             <div class="container">
@@ -140,9 +162,20 @@
                     </svg>
                     <p>Госзакупки</p>
                 </div>
-                <h2 class="title_h2">Госзакупки</h2>
+                <h2 class="title_h2 desctop">Госзакупки</h2>
+                <button class="title_h2__open_filter">
+                    КБК 2022
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="14" viewBox="0 0 28 14" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H27C27.5523 0 28 0.447715 28 1C28 1.55228 27.5523 2 27 2H1C0.447715 2 0 1.55228 0 1ZM0 7C0 6.44772 0.447715 6 1 6H27C27.5523 6 28 6.44772 28 7C28 7.55228 27.5523 8 27 8H1C0.447715 8 0 7.55228 0 7ZM28 13C28 12.4477 27.5523 12 27 12H1C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14H27C27.5523 14 28 13.5523 28 13Z" fill="#082471"/>
+                    </svg>
+                </button>
                 <div class="procurement__box">
                     <div class="autonomous_institutions__aside">
+                        <button class="filter_close">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.12117 0.706956C1.73065 0.316431 1.09748 0.316431 0.706956 0.706956C0.316432 1.09748 0.316431 1.73064 0.706956 2.12117L9.29282 10.707L0.707107 19.2927C0.316583 19.6833 0.316583 20.3164 0.707107 20.707C1.09763 21.0975 1.7308 21.0975 2.12132 20.707L10.707 12.1212L19.0917 20.5059C19.4823 20.8965 20.1154 20.8965 20.5059 20.5059C20.8965 20.1154 20.8965 19.4823 20.5059 19.0917L12.1212 10.707L20.5061 2.32218C20.8966 1.93166 20.8966 1.29849 20.5061 0.907966C20.1156 0.517442 19.4824 0.517442 19.0919 0.907966L10.707 9.29282L2.12117 0.706956Z" fill="#F96156"/>
+                            </svg>
+                        </button>
                         <div class="item">
                             <h5 class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" fill="none">
@@ -736,6 +769,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

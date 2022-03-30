@@ -10,6 +10,7 @@
     <title></title>
 </head>
 <body>
+    <div class="bg"></div>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -130,6 +131,27 @@
             </div>
         </div>
     </header>
+    <!-- modal -->
+    <div class="modal not_enough_rights">
+        <div class="modal__block">
+            <button class="modal__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.435 15.8492C14.8256 16.2398 15.4587 16.2398 15.8492 15.8492C16.2398 15.4587 16.2398 14.8256 15.8492 14.435L9.55637 8.14215L15.8493 1.84924C16.2398 1.45872 16.2398 0.825555 15.8493 0.435031C15.4588 0.0445061 14.8256 0.044506 14.4351 0.43503L8.14215 6.72794L1.70711 0.292894C1.31658 -0.0976317 0.683418 -0.0976307 0.292894 0.292894C-0.0976307 0.683418 -0.0976317 1.31658 0.292894 1.70711L6.72794 8.14215L0.292923 14.5772C-0.0976011 14.9677 -0.0976015 15.6009 0.292923 15.9914C0.683447 16.3819 1.31661 16.3819 1.70714 15.9914L8.14215 9.55637L14.435 15.8492Z" fill="white"/>
+                </svg>
+            </button>
+            <div class="box">
+                <div class="left">
+                    <h3 class="h2">У вас недостаточно прав доступа</h3>
+                    <p>Пожалуйста, авторизуйтесь или подайте заявку на подключение</p>
+                </div>
+                <img class="img" src="img/pngwing.png" alt="">
+            </div>
+            <div class="not_enough_rights__btn">
+                <button class="btn1">Подключиться</button>
+                <button class="btn2">авторизироваться</button>
+            </div>
+        </div>
+    </div>
     <main class="main">
         <section class="regulations">
             <div class="container">
@@ -341,6 +363,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
