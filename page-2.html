@@ -10,7 +10,7 @@
     <title></title>
 </head>
 <body>
-    <div class="bg"></div>
+    <div class="bg" id="bg"></div>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -20,12 +20,12 @@
                         <span>пресс</span>
                     </a>
                     <div class="header__burgir">
-                        <button class="btn">
+                        <button class="btn" id="header__burgir_btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path d="M17 17L11.6667 11.6667L17 17ZM13.4444 7.22222C13.4444 10.6587 10.6587 13.4444 7.22222 13.4444C3.78579 13.4444 1 10.6587 1 7.22222C1 3.78579 3.78579 1 7.22222 1C10.6587 1 13.4444 3.78579 13.4444 7.22222Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
-                        <button class="btn2">
+                        <button class="btn2" id="header__burgir_btn2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="14" viewBox="0 0 28 14" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H27C27.5523 0 28 0.447715 28 1C28 1.55228 27.5523 2 27 2H1C0.447715 2 0 1.55228 0 1ZM4 7C4 6.44772 4.44772 6 5 6H27C27.5523 6 28 6.44772 28 7C28 7.55228 27.5523 8 27 8H5C4.44772 8 4 7.55228 4 7ZM28 13C28 12.4477 27.5523 12 27 12H9C8.44771 12 8 12.4477 8 13C8 13.5523 8.44772 14 9 14H27C27.5523 14 28 13.5523 28 13Z" fill="#F96156"/>
                             </svg>
@@ -63,7 +63,7 @@
                         </svg>
                         +7 123 00 00
                     </a>
-                    <button class="header__connect">Подключиться</button>
+                    <button class="header__connect" id="header__connect">Подключиться</button>
                     <a href="#" class="header__user">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M5 6C5 3.79086 6.79086 2 9 2C11.2091 2 13 3.79087 13 6C13 8.20913 11.2091 10 9 10C6.79086 10 5 8.20914 5 6ZM9 0C5.68629 0 3 2.68629 3 6C3 9.31371 5.68629 12 9 12C12.3137 12 15 9.31372 15 6C15 2.68628 12.3137 0 9 0ZM9 13C4.02944 13 0 17.0294 0 22C0 22.5523 0.447715 23 1 23H17C17.5523 23 18 22.5523 18 22C18 17.0294 13.9706 13 9 13ZM9 15C12.5265 15 15.4439 17.6077 15.9291 21H2.07089C2.55612 17.6077 5.47353 15 9 15Z" fill="#F96156"/>
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__search">
+        <div class="header__search" id="header__search">
             <div class="container">
                 <div class="box">
                     <input type="text" class="search" placeholder="Поиск по сайту ">
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__navbar">
+        <div class="header__navbar" id="header__navbar">
             <div class="container">
                 <ul>
                     <li>
@@ -132,7 +132,7 @@
         </div>
     </header>
     <!-- modal -->
-    <div class="modal not_enough_rights">
+    <div class="modal not_enough_rights" id="not_enough_rights">
         <div class="modal__block">
             <button class="modal__close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <main class="main">
+    <main class="main" id="main">
         <section class="form_black">
             <div class="container">
                 <div class="crumbs">
@@ -163,7 +163,7 @@
                     <p>Формы и бланки</p>
                 </div>
                 <h2 class="title_h2">Формы и бланки</h2>
-                <div class="form_black__accordion active">
+                <div class="form_black__accordion classToggle active">
                     <div class="top">
                         Документы по бухгалтерскому отчету
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Бухгалтерская отчетность
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -209,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Рабочие документы и приложения к учетной политике
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -232,7 +232,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Учет в государственных (муниципальных) учреждениях
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -255,7 +255,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Конструктор договоров
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -278,7 +278,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Формы учета и отчетности ФНС
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -301,7 +301,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Документы по расчетам ФСС
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -324,7 +324,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Документы по учету ПФР и персонифицированный учет
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -347,7 +347,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Юридические вопросы
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -370,7 +370,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Статистическая отчетность
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -393,7 +393,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Документы по охране труда
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -416,7 +416,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Документы по учету кадров
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -439,7 +439,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Документы по госзакупкам
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -462,7 +462,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Отраслевой учет в коммерческих организациях
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -485,7 +485,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Бланки строгой отчетности
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -508,7 +508,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="form_black__accordion">
+                <div class="form_black__accordion classToggle">
                     <div class="top">
                         Прочие формы и бланки
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">

@@ -10,7 +10,7 @@
     <title></title>
 </head>
 <body>
-    <div class="bg"></div>
+    <div class="bg" id="bg"></div>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -20,12 +20,12 @@
                         <span>пресс</span>
                     </a>
                     <div class="header__burgir">
-                        <button class="btn">
+                        <button class="btn" id="header__burgir_btn">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path d="M17 17L11.6667 11.6667L17 17ZM13.4444 7.22222C13.4444 10.6587 10.6587 13.4444 7.22222 13.4444C3.78579 13.4444 1 10.6587 1 7.22222C1 3.78579 3.78579 1 7.22222 1C10.6587 1 13.4444 3.78579 13.4444 7.22222Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </button>
-                        <button class="btn2">
+                        <button class="btn2" id="header__burgir_btn2">
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="14" viewBox="0 0 28 14" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H27C27.5523 0 28 0.447715 28 1C28 1.55228 27.5523 2 27 2H1C0.447715 2 0 1.55228 0 1ZM4 7C4 6.44772 4.44772 6 5 6H27C27.5523 6 28 6.44772 28 7C28 7.55228 27.5523 8 27 8H5C4.44772 8 4 7.55228 4 7ZM28 13C28 12.4477 27.5523 12 27 12H9C8.44771 12 8 12.4477 8 13C8 13.5523 8.44772 14 9 14H27C27.5523 14 28 13.5523 28 13Z" fill="#F96156"/>
                             </svg>
@@ -63,7 +63,7 @@
                         </svg>
                         +7 123 00 00
                     </a>
-                    <button class="header__connect">Подключиться</button>
+                    <button class="header__connect" id="header__connect">Подключиться</button>
                     <a href="#" class="header__user">
                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M5 6C5 3.79086 6.79086 2 9 2C11.2091 2 13 3.79087 13 6C13 8.20913 11.2091 10 9 10C6.79086 10 5 8.20914 5 6ZM9 0C5.68629 0 3 2.68629 3 6C3 9.31371 5.68629 12 9 12C12.3137 12 15 9.31372 15 6C15 2.68628 12.3137 0 9 0ZM9 13C4.02944 13 0 17.0294 0 22C0 22.5523 0.447715 23 1 23H17C17.5523 23 18 22.5523 18 22C18 17.0294 13.9706 13 9 13ZM9 15C12.5265 15 15.4439 17.6077 15.9291 21H2.07089C2.55612 17.6077 5.47353 15 9 15Z" fill="#F96156"/>
@@ -76,7 +76,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__search">
+        <div class="header__search" id="header__search">
             <div class="container">
                 <div class="box">
                     <input type="text" class="search" placeholder="Поиск по сайту ">
@@ -88,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="header__navbar">
+        <div class="header__navbar" id="header__navbar">
             <div class="container">
                 <ul>
                     <li>
@@ -132,7 +132,7 @@
         </div>
     </header>
     <!-- modal -->
-    <div class="modal not_enough_rights">
+    <div class="modal not_enough_rights" id="not_enough_rights">
         <div class="modal__block">
             <button class="modal__close">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <main class="main">
+    <main class="main" id="main">
         <section class="kbk_2">
             <div class="container">
                 <div class="crumbs">
@@ -167,7 +167,7 @@
                     <p>КБК 2022</p>
                 </div>
                 <h2 class="title_h2 desctop">КБК 2022</h2>
-                <button class="title_h2__open_filter">
+                <button class="title_h2__open_filter" id="title_h2__open_filter">
                     КБК 2022
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="14" viewBox="0 0 28 14" fill="none">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1C0 0.447715 0.447715 0 1 0H27C27.5523 0 28 0.447715 28 1C28 1.55228 27.5523 2 27 2H1C0.447715 2 0 1.55228 0 1ZM0 7C0 6.44772 0.447715 6 1 6H27C27.5523 6 28 6.44772 28 7C28 7.55228 27.5523 8 27 8H1C0.447715 8 0 7.55228 0 7ZM28 13C28 12.4477 27.5523 12 27 12H1C0.447715 12 0 12.4477 0 13C0 13.5523 0.447715 14 1 14H27C27.5523 14 28 13.5523 28 13Z" fill="#082471"/>
@@ -185,7 +185,7 @@
                     </div>
                 </div>
                 <div class="kbk_2__box">
-                    <div class="kbk_2__aside">
+                    <div class="kbk_2__aside" id="kbk_2__aside">
                         <button class="filter_close">
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.12117 0.706956C1.73065 0.316431 1.09748 0.316431 0.706956 0.706956C0.316432 1.09748 0.316431 1.73064 0.706956 2.12117L9.29282 10.707L0.707107 19.2927C0.316583 19.6833 0.316583 20.3164 0.707107 20.707C1.09763 21.0975 1.7308 21.0975 2.12132 20.707L10.707 12.1212L19.0917 20.5059C19.4823 20.8965 20.1154 20.8965 20.5059 20.5059C20.8965 20.1154 20.8965 19.4823 20.5059 19.0917L12.1212 10.707L20.5061 2.32218C20.8966 1.93166 20.8966 1.29849 20.5061 0.907966C20.1156 0.517442 19.4824 0.517442 19.0919 0.907966L10.707 9.29282L2.12117 0.706956Z" fill="#F96156"/>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="kbk_2__content">
                         <h3 class="h3">Акцизы</h3>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на автомобили легковые и мотоциклы, производимые на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -234,7 +234,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на автомобильный бензин, производимый на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -255,7 +255,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на алкогольную продукцию с объемной долей этилового спирта до 9% (за исключением пива, вин, фруктовых вин, игристых вин (шампанских), винных напитков, изготавливаемых без добавления ректификованного этилового спирта), ввоз на территорию России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -276,7 +276,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion active">
+                        <div class="kbk_2__accordion classToggle active">
                             <div class="top">
                                 <p>Акцизы на алкогольную продукцию с объемной долей этилового спирта до 9% (за исключением пива, вин, фруктовых вин, игристых вин (шампанских), винных напитков, изготавливаемых без добавления ректификованного этилового спирта),произв на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -297,7 +297,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на алкогольную продукцию с объемной долей этилового спирта свыше 9% (за исключением пива, вин, фруктовых вин, игристых вин (шампанских), винных напитков, изготавливаемых без добавления ректификованного этилового спирта), ввоз на территорию России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -318,7 +318,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на алкогольную продукцию с объемной долей этилового спирта свыше 9% (за исключением пива, вин, фруктовых вин, игристых вин (шампанских), винных напитков, изготавливаемых без добавления ректификованного этилового спирта), ввоз на территорию России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -339,7 +339,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на вина, фруктовые вина, игристые вина (шампанские), винные напитки, изготавливаемые без добавления ректификованного этилового спирта, производимые на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -360,7 +360,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на дизельное топливо, производимое на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -381,7 +381,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на моторные масла для дизельных и (или) карбюраторных (инжекторных) двигателей, производимые на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -402,7 +402,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на пиво, производимое на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -423,7 +423,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на прямогонный бензин, производимый на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -444,7 +444,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на спиртосодержащую продукцию, производимую на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -465,7 +465,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на сталь жидкую</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -486,7 +486,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="kbk_2__accordion">
+                        <div class="kbk_2__accordion classToggle">
                             <div class="top">
                                 <p>Акцизы на табачную продукцию, производимую на территории России</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
