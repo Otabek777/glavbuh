@@ -3896,4 +3896,6 @@ ul, ol {
       -ms-flex-order: 2;
       order: 2;
       margin-left: 0;
-      margin-top: 12px; } }
+      margin-top: 12px; }
+  .header__user {
+    width: calc(100% - 230px); } }
