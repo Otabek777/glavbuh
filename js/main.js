@@ -2,6 +2,7 @@ function classToggleRemove(className, classNameToggle, classNameRemove) {
     $(`${className}`).click(function() {
         $(`${classNameToggle}`).toggleClass('active');
         $(`${classNameRemove}`).removeClass('active');
+        $(this).toggleClass('active');
     }); 
 };
 classToggleRemove('#header__burgir_btn2', '#header__navbar', '#header__search');
