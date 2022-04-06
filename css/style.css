@@ -178,8 +178,7 @@ ul, ol {
   -ms-flex-align: center;
   align-items: center; }
   .header__user div {
-    width: 100%;
-    padding-top: 5px; }
+    width: 100%; }
   .header__user h5 {
     width: 100%;
     height: 21px;
@@ -193,8 +192,7 @@ ul, ol {
     font-weight: 700;
     font-size: 13px;
     line-height: 21px;
-    color: #082471;
-    margin-top: -5px; }
+    color: #082471; }
   .header__user svg {
     min-width: 18px;
     margin-right: 12px; }
@@ -3898,4 +3896,4 @@ ul, ol {
       margin-left: 0;
       margin-top: 12px; }
   .header__user {
-    width: calc(100% - 230px); } }
+    width: auto; } }
