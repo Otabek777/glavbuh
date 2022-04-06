@@ -2358,27 +2358,28 @@ ul, ol {
       margin-top: 17px;
       margin-left: 30px; }
 
-.modal__wrap {
+.modal-wrap {
   width: 600px;
   padding: 63px 94px 57px 94px;
   background: #EEF0F5;
   border: 2px solid #F2F2F2;
   margin: 0 auto;
-  position: relative; }
-  .modal__wrap .h2 {
+  position: relative;
+  border: 0; }
+  .modal-wrap .h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #333344;
     margin-bottom: 36px; }
-  .modal__wrap .h6 {
+  .modal-wrap .h6 {
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     color: #333344;
     margin-top: -30px;
     margin-bottom: 32px; }
-  .modal__wrap .box {
+  .modal-wrap .box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2386,20 +2387,20 @@ ul, ol {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-bottom: 16px; }
-  .modal__wrap .left {
+  .modal-wrap .left {
     width: 125px;
     padding-right: 16px; }
-    .modal__wrap .left p {
+    .modal-wrap .left p {
       font-weight: 700;
       font-size: 12px;
       line-height: 14px;
       color: #333344; }
-      .modal__wrap .left p span {
+      .modal-wrap .left p span {
         color: #F96156; }
-  .modal__wrap .right {
+  .modal-wrap .right {
     width: calc(100% - 125px);
     position: relative; }
-    .modal__wrap .right svg {
+    .modal-wrap .right svg {
       position: absolute;
       top: 50%;
       left: 10px;
@@ -2407,9 +2408,9 @@ ul, ol {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
-    .modal__wrap .right svg + .input {
+    .modal-wrap .right svg + .input {
       padding-left: 32px; }
-    .modal__wrap .right .input {
+    .modal-wrap .right .input {
       width: 100%;
       height: 34px;
       background: #FFFFFF;
@@ -2419,25 +2420,25 @@ ul, ol {
       line-height: 21px;
       color: #333344;
       border: 0; }
-  .modal__wrap .checkbox {
+  .modal-wrap .checkbox {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     position: relative; }
-    .modal__wrap .checkbox input {
+    .modal-wrap .checkbox input {
       min-width: 24px;
       width: 24px;
       height: 20px;
       margin-right: 16px;
       opacity: 0; }
-    .modal__wrap .checkbox label {
+    .modal-wrap .checkbox label {
       width: 100%;
       font-weight: 400;
       font-size: 13px;
       line-height: 16px;
       color: #333344;
       cursor: pointer; }
-    .modal__wrap .checkbox label::after {
+    .modal-wrap .checkbox label::after {
       cursor: pointer;
       content: "";
       width: 24px;
@@ -2447,9 +2448,9 @@ ul, ol {
       top: 0;
       left: 0;
       z-index: 1; }
-    .modal__wrap .checkbox input:checked + label::after {
+    .modal-wrap .checkbox input:checked + label::after {
       background: #fff url(../img/check.svg) no-repeat center; }
-  .modal__wrap .btn {
+  .modal-wrap .btn {
     width: 160px;
     height: 46px;
     background: #F96156;
@@ -2470,7 +2471,7 @@ ul, ol {
     color: #FFFFFF;
     margin-top: 34px;
     margin-left: auto; }
-  .modal__wrap .btn2 {
+  .modal-wrap .btn2 {
     width: 100%;
     height: 46px;
     background: #F96156;
@@ -2490,7 +2491,7 @@ ul, ol {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 34px; }
-  .modal__wrap .btn3 {
+  .modal-wrap .btn3 {
     width: 111px;
     height: 46px;
     background: #F96156;
@@ -2510,7 +2511,7 @@ ul, ol {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-left: auto; }
-  .modal__wrap .bottom {
+  .modal-wrap .bottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2518,7 +2519,7 @@ ul, ol {
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 36px; }
-    .modal__wrap .bottom .link {
+    .modal-wrap .bottom .link {
       font-weight: 500;
       font-size: 12px;
       line-height: 15px;
@@ -2548,6 +2549,15 @@ ul, ol {
   padding: 65px 65px 95px 70px; }
 
 .modal__close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   background: #F96156;
