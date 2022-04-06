@@ -170,7 +170,7 @@ ul, ol {
   color: #FFFFFF; }
 
 .header__user {
-  width: 160px;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
